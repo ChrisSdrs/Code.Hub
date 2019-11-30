@@ -90,6 +90,7 @@ public class Main {
             }
         }
         return true;
+
     }
 
     public static boolean threeConsecutiveCharCheck(String password) {
@@ -272,27 +273,27 @@ public class Main {
         // Three consecutive characters & missing lowercase
         passwordCheck("A#3WXY1@759");
         // Three consecutive characters & missing special characters & numbers
-        passwordCheck("A#a1@759");
+        passwordCheck("bgrFvcsCDEl");
         // Three consecutive characters & missing special characters & uppercase
-        passwordCheck("A#a1@759");
+        passwordCheck("m9a123l759");
         // Three consecutive characters & missing special characters & lowercase
-        passwordCheck("A#a1@759");
+        passwordCheck("AKLM1JB59");
         // Three consecutive characters & missing numbers & uppercase
-        passwordCheck("A#a1@759");
+        passwordCheck("qrs#agvi@b%$");
         // Three consecutive characters & missing numbers & lowercase
-        passwordCheck("A#a1@759");
+        passwordCheck("A#BNT%@NOP");
         // Three consecutive characters & three same characters
-        passwordCheck("A#a1@759");
+        passwordCheck("A#aaa1@78959");
         // Three consecutive characters & three same characters & only lowercase
-        passwordCheck("A#a1@759");
+        passwordCheck("bcdjgtdeppp");
         // Three consecutive characters & three same characters & only uppercase
-        passwordCheck("A#a1@759");
+        passwordCheck("BGCTLKKKVWXGT");
         // Three consecutive characters & three same characters & only numbers
-        passwordCheck("A#a1@759");
+        passwordCheck("0298567401999");
         // Three consecutive characters & three same characters & only special characters
-        passwordCheck("A#a1@759");
+        passwordCheck("$^%#@$^*$$$*");
         // Three consecutive characters & three same characters & missing special characters
-        passwordCheck("A#a1@759");
+        passwordCheck("NmkPLggg123");
         // Three consecutive characters & three same characters & missing numbers
         passwordCheck("A#a1@759");
         // Three consecutive characters & three same characters & missing uppercase
